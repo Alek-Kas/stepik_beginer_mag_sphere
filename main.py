@@ -17,5 +17,13 @@ def main():
     pass
 
 
+print('Привет Мир, я магический шар, и я знаю ответ на любой твой вопрос.')
+print('Введите ваше имя: ', end='')
+user_name = input()
+print('')
+print('*' * 20)
+print('')
+print(f'Привет {user_name}!')
+
 while True:
     pass
