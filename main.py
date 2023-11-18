@@ -9,15 +9,11 @@ answers = [
 ]
 
 
-def user_choice():
-    return choice(answers)
-
-
 def main():
     print()
     print(f'{user_name}, задайте свой вопрос: ', end='')
     question = input()
-    print(f'Вот ответ на вопрос: {question} - {user_choice()}')
+    print(f'Вот ответ на вопрос: {question} - {choice(answers)}')
 
 
 print('Привет Мир, я магический шар, и я знаю ответ на любой твой вопрос.')
